@@ -38,3 +38,17 @@ form {
     padding: 20px;
     background-color: #ffffff;
 }
+
+/* classes para habilitar com o JS... */
+
+.campo.invalid input, .campo.invalid textarea {
+    border: 1px solid #F52E2E;
+}
+
+.campo.invalid .warning {
+    display: block;
+}
+
+.campo.enabled input, .campo.enabled textarea {
+    border: 1px solid #00C22B;
+}
