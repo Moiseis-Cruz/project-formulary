@@ -7,6 +7,7 @@ body {
     background-size: contain;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    color: #ffffff;
 }
 
 main {
@@ -15,5 +16,19 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap
 }
 
+.title {
+    width: 300px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: red;
+}
+
+.description {
+    font-size: 15px;
+    font-weight: 400;
+    width: 300px;
+    background-color: rebeccapurple;
+}
