@@ -5,7 +5,7 @@
 }
 
 input, textarea {
-    border: 1px solid #000000;
+    border: 1px solid var(-secundary--color);
     padding: 8px;
 }
 
@@ -17,10 +17,21 @@ input, textarea, button {
 textarea {
     resize: none;
     font-family: 'Roboto', sans-serif;
+    height: 100px;
 }
 
 small {
     color: red;
+    background-color: chartreuse;
     font-weight: 400;
     font-size: 8px;
+}
+
+button {
+    height: 41px;
+    border: none;
+    background-color: #3CCC87;
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 700;
 }
