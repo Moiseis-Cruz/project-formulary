@@ -4,10 +4,23 @@
     box-sizing: border-box;
 }
 
+input, textarea {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
 input, textarea, button {
     width: 100%;
+    border-radius: 5px;
 }
 
 textarea {
     resize: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+small {
+    color: red;
+    font-weight: 400;
+    font-size: 8px;
 }
