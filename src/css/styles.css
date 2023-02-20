@@ -42,7 +42,7 @@ form {
 /* classes para habilitar com o JS... */
 
 .campo.invalid input, .campo.invalid textarea {
-    border: 1px solid #F52E2E;
+    border: 1px solid var(--tertiary-color);
 }
 
 .campo.invalid .warning {

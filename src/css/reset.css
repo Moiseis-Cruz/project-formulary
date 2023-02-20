@@ -33,7 +33,7 @@ textarea {
 }
 
 .warning {
-    color: #F52E2E;
+    color: var(--tertiary-color);
     font-weight: 400;
     font-size: 8px;
     display: none;
