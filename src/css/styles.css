@@ -39,3 +39,10 @@ form {
     background-color: #ffffff;
 }
 
+.form-control.invalid  input, .form-control.invalid textarea{
+    border: 1px solid #f52e2e;
+}
+
+.form-control.enabled  input, .form-control.enabled textarea{
+    border: 1px solid #00c22b;
+}
