@@ -39,8 +39,13 @@ form {
     background-color: #ffffff;
 }
 
+/*  Estilização de validação    */
+
 .form-control.invalid  input, .form-control.invalid textarea{
     border: 1px solid #f52e2e;
+}
+.form-control.invalid  .warning{
+    display: block;
 }
 
 .form-control.enabled  input, .form-control.enabled textarea{
