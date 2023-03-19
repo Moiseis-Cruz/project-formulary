@@ -55,7 +55,6 @@ function errorValidation() {
     const formControl = document.querySelector(".form-control")
     // const smallInvalid = document.querySelector("warning")
 
-    console.log(formControl);
     formControl.classList.add("invalid")
 }
 
