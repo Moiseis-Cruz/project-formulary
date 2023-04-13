@@ -10,8 +10,10 @@ btnValidation.addEventListener("click", event => {
     input.forEach(function(input, i) {
         if(input.value === ""){
             divsValidation[i].classList.add("invalid")
+            divsValidation[i].classList.remove("enabled")
         }else{
             divsValidation[i].classList.add("enabled")
+            divsValidation[i].classList.remove("invalid")
         }
     })
 })
