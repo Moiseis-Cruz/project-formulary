@@ -39,6 +39,35 @@ form {
     background-color: #ffffff;
 }
 
+.form-control {
+    margin-bottom: 6px;
+}
+
+.input {
+    height: 43px;
+}
+
+.textarea {
+    height: 114px;
+}
+
+.warning {
+    color: var(--tertiary-color);
+    font-weight: 400;
+    font-size: 8px;
+    display: none;
+}
+
+button {
+    height: 41px;
+    border: none;
+    background-color: #3CCC87;
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 /*  Estilização de validação    */
 
 .form-control.invalid  input, .form-control.invalid textarea{
