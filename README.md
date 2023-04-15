@@ -7,6 +7,9 @@ Neste desfio faço um formulário com validação de cada campo. Onde aparece um
 <br> 
 E, se preencher todos os campos, as bordas de cada um deles que for confirmado, ficará verde. Indicando que foi bem sucedido.
 
+## Coisas que eu aprendi:
+
+Com este projeto aperfeiçoei as minha habilidade de domo usar o forEach da forma correta, e, dentro dele, utilizar condicionais (if, else). Para assim poder validar ou não os campos da forma correta. 
 
 ## Tecnologias utilizadas:
 
