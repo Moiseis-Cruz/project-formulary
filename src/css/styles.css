@@ -68,6 +68,10 @@ button {
     cursor: pointer;
 }
 
+button:active {
+    background-color: #127c49;
+}
+
 /*  Estilização de validação    */
 
 .form-control.invalid  input, .form-control.invalid textarea{
