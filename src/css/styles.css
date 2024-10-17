@@ -72,8 +72,6 @@ button:active {
     background-color: #127c49;
 }
 
-/*  Estilização de validação    */
-
 .form-control.invalid  input, .form-control.invalid textarea{
     border: 1px solid #f52e2e;
 }
