@@ -2,12 +2,12 @@ const formulary = document.getElementById("formulary");
 
 const divsValidation = document.querySelectorAll(".form-control");
 
-const input = document.querySelectorAll("#name, #email, #phone, #message");
+const inputs = document.querySelectorAll("#name, #email, #phone, #message");
 
 formulary.addEventListener("change", (e) => {
     e.preventDefault();
 
-    input.forEach((input, i) => {
+    inputs.forEach((input, i) => {
         if(input.value === ""){
             divsValidation[i].classList.add("invalid");
             divsValidation[i].classList.remove("enabled");
@@ -21,7 +21,7 @@ formulary.addEventListener("change", (e) => {
 formulary.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    input.forEach((input, i) => {
+    inputs.forEach((input, i) => {
         if(input.value === ""){
             divsValidation[i].classList.add("invalid");
             divsValidation[i].classList.remove("enabled");
